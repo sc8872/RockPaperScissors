@@ -1,0 +1,45 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color:rgb(175, 163, 163);
+}
+header{
+  font-size: 4rem;
+  border-bottom: 10px solid rgb(77, 74, 74);;
+}
+
+header,
+.result,
+.players,  
+.options {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  text-align: center;
+  margin-top: 1.2rem;
+}
+.options{
+  gap: 0.2rem;
+}
+.selection{
+  border: 10px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+  
+  font-size: 5rem;
+  max-width: 100%;
+  height: auto;
+  display: inline-block; 
+}
+.players{
+  gap: 10rem;
+}
+
+
+
+
